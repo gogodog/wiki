@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>Retro Touch - by Spiral Pixel Design</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script type="text/javascript" src="style/js/jquery-1.7.1.js"></script>
+  <script type="text/javascript" src="style/js/custom.js"></script>
+
+<!-- ADD YOUR TWITTER USERNAME HERE - replace jo_phillips -->
+	<script type="text/javascript">
+	//<![CDATA[
+	 $(function(){
+		$('#tweets').tweetable({username: 'jo_phillips', time: false, limit: 10, replies: false, position: 'append'});
+		});
+		//]]>
+  </script>
+  <script type="text/javascript">
+//<![CDATA[
+  $(function(){
+    $("ul#tweet").liScroll({travelocity: 0.05});
+  });
+  //]]>
+  </script>
+</head>
+
+<body>
+  <div class="strip"></div>
+    <div id="wrapper">
+      <div id="logo">
+		<a href="index.html"><img src="style/images/logo.png" alt="" width="230" height="130" class="logo" /></a></div>
+
+        <div id="main">
+		<ul id="nav"><!-- main menu starts -->
+ 		  <li class="first"><a href="index.html">Home</a>
+
+		<ul><!-- first sub menu -->
+			<li><a href="index.html">Nivo Slider</a></li>
+			<li><a href="index2.html">Gallery View</a></li>
+			<li><a href="index3.html">Awkward Slider</a></li>
+			<li><a href="#">Sub Menu</a><!-- second sub menu -->
+			<ul>
+			 <li><a href="#"> SUB PAGE 1</a></li>
+			 <li><a href="#">SUB PAGE 2</a></li>
+			</ul>
+			</li>
+		</ul>
+	</li>	
+		  <li><a href="about.html">About</a></li>
+
+          <li><a href="work1.html">Projects</a>
+		<ul><!-- first sub menu -->
+			<li><a href="work1.html">Projects Page 1</a></li>
+			<li><a href="work2.html">Projects Page 2</a></li>
+		</ul>
+		</li>
+
+          <li><a href="services.html">Services</a></li>
+
+          <li><a href="portfolio.html">Gallery</a>
+		<ul><!-- first sub menu -->
+			<li><a href="portfolio.html">Sortable</a></li>
+			<li><a href="portfolio2.html">Paginated</a></li>
+		</ul>
+		</li>
+
+          <li class="current"><a href="contact.html">Contact</a></li>
+
+          <li><a href="blog.html">Blog</a>
+		<ul><!-- first sub menu -->
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="blog_page.html">Single Post</a></li>
+			<li><a href="blog_full.html">Single Full Width</a></li>
+		</ul>
+		</li>
+		
+		<li><a href="extras.html">Extras</a>
+		<ul><!-- first sub menu -->
+			<li><a href="extras.html">Page 1</a></li>
+			<li><a href="extras2.html">Page 2</a></li>
+			<li><a href="columns.html">Columns</a></li>
+		</ul></li>
+	</ul>
+        <!-- main menu ends -->
+		</div>
+
+    <div id="content">
+      <h1>Contact Me</h1>
+
+      <div class="col2">
+        <h2 class="intro">By the thirteenth of May <strong>our ship</strong> was ready to
+        sail, the next day we were out in the <strong>open sea</strong>, on our way.</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit rhoncus
+        purus at varius. Cras feugiat, ante ac lobortis aliquet, felis velit vestibulum
+        quam, dignissim condimentum neque orci quis lorem. Cras sapien velit,
+        commodo.</p>
+
+        <h4>Get in touch</h4>
+		<a href="#"><img src="style/images/vcard.png" width="94" height="94" alt="" class="vcard tooltip" title="My Details" /></a>
+		<strong>Email:</strong> <a href="#">me@mysite.com</a><br />
+        <strong>Phone:</strong> 01958 468 421<br />
+        <strong>Address:</strong> 2 Plantin Way, Ampersand, Html County, CM9 8SB<br />
+        <strong>DM me on Twitter:</strong> <a href="#">jo_phillips</a>
+      </div>
+
+      <div class="col2 last">
+       <div id="map">
+          <!-- GOOGLE MAP  -->
+          <iframe width="442" height="225" frameborder="0" scrolling="no" marginheight=
+          "0" marginwidth="0" src=
+          "http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Liverpool+FC,+Anfield+Road,+Liverpool&amp;aq=0&amp;oq=liverpool+fc&amp;sll=53.800651,-4.064941&amp;sspn=14.044769,39.506836&amp;ie=UTF8&amp;hq=Liverpool+FC,&amp;hnear=Anfield+Stadium,+United+Kingdom&amp;t=m&amp;ll=53.430923,-2.960866&amp;spn=0.015955,0.038418&amp;output=embed"></iframe>
+        </div><!-- MAP ENDS -->
+      </div>
+
+      <div class="clear"></div><br/>
+		<div class="divider-blog"></div>
+
+      <div class="col2">
+        <!-- CONTACT FORM STARTS -->
+
+        <form action="http://www.spiralpixelthemes.co.uk/rtd/dark/send.php" id="contact_form" method="post" name="contact_form">
+          <ul>
+            <li><label>NAME <span class="required">*</span></label> <input type="text"
+            name="name" id="name" value="" class="requiredField" /></li>
+
+            <li><label>EMAIL <span class="required">*</span></label> <input type="text"
+            name="email" id="email" value="" class="requiredField email" /></li>
+
+            <li class="textarea"><label>MESSAGE <span class="required">*</span></label> 
+            <textarea name="message" id="message" rows="20" cols="30" class=
+            "requiredField">
+			</textarea></li>
+
+            <li class="button_form"><input name="submitted" id="submitted" value=
+            "Send Message" class="submit" type="submit" /> <input id="reset" type="reset"
+            value="Reset Form" class="submit" /></li>
+          </ul>
+        </form><script type="text/javascript">
+                //<![CDATA[
+                        $(document).ready(function(){
+                        $("#form").validate();
+                                });
+                                //]]>
+        </script><!-- CONTACT FORM ENDS -->
+      </div>
+
+      <div class="col2 last">
+        <br />
+
+        <h5>Request A Quote</h5>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit rhoncus
+        purus at varius. Cras feugiat, ante ac lobortis aliquet, felis velit vestibulum
+        quam, dignissim condimentum neque orci quis lorem. Cras sapien velit,
+        commodo.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit rhoncus
+        purus at varius. Cras feugiat, ante ac lobortis aliquet, felis velit vestibulum
+        quam, dignissim condimentum neque orci quis lorem. Cras sapien velit,
+        commodo.</p>
+
+        <h5>i'm social!</h5>
+
+        <ul id="social"><!-- social icons -->
+
+          <li><a href="javascript:void(false)"><img src=
+          "style/images/social/twitter_bird.png" alt="Twitter" title="Twitter" class=
+          "tooltip" width="46" height="46" /></a></li>
+
+          <li><a href="javascript:void(false)"><img src=
+          "style/images/social/facebook.png" alt="Facebook" title="Facebook" class=
+          "tooltip" width="46" height="46" /></a></li>
+
+          <li><a href="javascript:void(false)"><img src=
+          "style/images/social/dribbble.png" alt="Dribbble" title="Dribbble" class=
+          "tooltip" width="46" height="46" /></a></li>
+
+          <li><a href="javascript:void(false)"><img src=
+          "style/images/social/deviantart.png" alt="DeviantArt" title="DeviantArt" class=
+          "tooltip" width="46" height="46" /></a></li>
+
+          <li><a href="javascript:void(false)"><img src=
+          "style/images/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class=
+          "tooltip" width="46" height="46" /></a></li>
+
+          <li><a href="javascript:void(false)"><img src=
+          "style/images/social/pinterest.png" alt="Pinterest" title="Pinterest" class=
+          "tooltip" width="46" height="46" /></a></li>
+
+          <li><a href="javascript:void(false)"><img src="style/images/social/flickr.png"
+          alt="Flickr" title="Flickr" class="tooltip" width="46" height="46" /></a></li>
+
+          <li><a href="javascript:void(false)"><img src="style/images/social/behance.png"
+          alt="Behance" title="Behance" class="tooltip" width="46" height=
+          "46" /></a></li>
+        </ul>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="twitter">
+        <!-- TWIITER STARTS -->
+
+        <ul id="tweet">
+          <li id="tweets"></li>
+        </ul>
+      </div><!-- TWITTER ENDS -->
+    </div><!-- content ends -->
+  </div><!-- wrapper ends -->
+ <div class="clear"></div>
+
+<div class="footer">
+    <div class="footer_inner">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="work1.html">Projects</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="portfolio.html">Gallery</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li class="last"><a href="extras.html">Extras</a></li>
+      </ul>
+		<div class="copyright">
+        &copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/" title="模板之家">模板之家</a> Collect from <a href="http://www.cssmoban.com/" title="网站模板" target="_blank">网站模板</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+

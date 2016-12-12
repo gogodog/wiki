@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>Retro Touch - by Spiral Pixel Design</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" href="style/pirobox/style.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="style/css/intro_text.css" />
+  <script type="text/javascript" src="style/js/jquery-1.7.1.js"></script>
+  <script type="text/javascript" src="style/js/custom.js"></script>
+  <script type="text/javascript" src="style/js/jquery.lettering.js"></script>
+  <script type="text/javascript" src="style/js/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript" src="style/js/jquery.aw-showcase.js"></script>
+</head>
+
+<body>
+  <div class="strip"></div>
+    <div id="wrapper">
+      <div id="logo">
+		<a href="index.html"><img src="style/images/logo.png" alt="" width="230" height="130" class="logo" /></a></div>
+
+        <div id="main">
+		<ul id="nav"><!-- main menu starts -->
+ 		  <li class="current first"><a href="index.html">Home</a>
+
+		<ul><!-- first sub menu -->
+			<li><a href="index.html">Nivo Slider</a></li>
+			<li><a href="index2.html">Gallery View</a></li>
+			<li><a href="index3.html">Awkward Slider</a></li>
+			<li><a href="#">Sub Menu</a><!-- second sub menu -->
+			<ul>
+			 <li><a href="#"> SUB PAGE 1</a></li>
+			 <li><a href="#">SUB PAGE 2</a></li>
+			</ul>
+			</li>
+		</ul>
+	</li>	
+		  <li><a href="about.html">About</a></li>
+
+          <li><a href="work1.html">Projects</a>
+		<ul><!-- first sub menu -->
+			<li><a href="work1.html">Projects Page 1</a></li>
+			<li><a href="work2.html">Projects Page 2</a></li>
+		</ul>
+		</li>
+
+          <li><a href="services.html">Services</a></li>
+
+          <li><a href="portfolio.html">Gallery</a>
+		<ul><!-- first sub menu -->
+			<li><a href="portfolio.html">Sortable</a></li>
+			<li><a href="portfolio2.html">Paginated</a></li>
+		</ul>
+		</li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+          <li><a href="blog.html">Blog</a>
+		<ul><!-- first sub menu -->
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="blog_page.html">Single Post</a></li>
+			<li><a href="blog_full.html">Single Full Width</a></li>
+		</ul>
+		</li>
+		
+		<li><a href="extras.html">Extras</a>
+		<ul><!-- first sub menu -->
+			<li><a href="extras.html">Page 1</a></li>
+			<li><a href="extras2.html">Page 2</a></li>
+			<li><a href="columns.html">Columns</a></li>
+		</ul></li>
+	</ul>
+        <!-- main menu ends -->
+		</div>
+
+   <div id="content">
+	<!-- featured slider --> 
+	<div id="showcase" class="showcase">
+          <!-- slide 1 image -->
+			<div class="showcase-slide">
+            <!-- Put the slide content in a div with the class .showcase-content. -->
+			 <div class="showcase-content"><img src="style/images/work/index_large1.jpg" alt="" /></div>
+            <!-- Put the caption content in a div with the class .showcase-caption -->
+			<div class="showcase-caption">
+              You Can Add Captions... <a href="javascript:void(false)">and Links</a>
+            </div>
+          </div>
+
+		<div class="showcase-slide"><!-- slide 2 vimeo -->
+            <!-- Put the slide content in a div with the class .showcase-content. -->
+			<div class="showcase-content">
+              <iframe src=
+        "http://player.vimeo.com/video/1084537?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0179"
+        width="930" height="400" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+            </div>
+          </div>
+
+		<div class="showcase-slide"><!-- slide 3 soundcloud -->
+            <!-- Put the slide content in a div with the class .showcase-content. -->
+			<div class="showcase-content_soundcloud">
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F45312312&amp;show_artwork=true" target="_blank">
+			</iframe>
+			</div>
+          </div>
+
+          <div class="showcase-slide"><!-- slide 4 youtube -->
+            <!-- Put the slide content in a div with the class .showcase-content. -->
+			<div class="showcase-content">
+			<iframe width="936" height="400" src="http://www.youtube.com/embed/HOfdboHvshg" frameborder="0" allowfullscreen>
+			</iframe>
+			</div>
+          </div>
+
+		<div class="showcase-slide"><!-- slide 5 html -->
+            <!-- If the slide contains multiple elements, wrap them in a div with the class .showcase-content-wrapper. -->
+				<div class="showcase-content-wrapper">
+              <h1 class="showcase-content">You can put what ever you want<br />
+              in this sliding machine!</h1>
+				<h2 class="showcase-content">Add any type of HTML element - Graphics, Video, Text...</h2>
+			<p class="showcase-content"><em>pssst.. you can use the arrow keys to navigate.</em></p>
+            </div>
+          </div>
+        </div><!--slideshow ends-->
+		<script type="text/javascript">
+//<![CDATA[
+	$(document).ready(function()
+  {
+        $("#showcase").awShowcase(
+        {		content_width: 936,
+                content_height: 400,
+                fit_to_parent:false,
+                auto: true,
+                interval: 3000,
+                continuous: true,
+                loading:true,
+                arrows:true,
+                buttons: true,
+                btn_numbers: true,
+                keybord_keys:true,
+                mousetrace:false,
+                pauseonover:true,
+                stoponclick:true,
+                transition: 'hslide',
+                transition_delay: 0,
+                transition_speed:1000,
+                show_caption:'onload',
+                speed_change:true
+			});
+       });
+//]]>
+  </script>
+
+        <div class="clear"></div>
+
+		<!-- letters animation starts -->
+		<div id="letter-container" class="letter-container">
+          <h2><a href="#">Hello! I'm John Doe, welcome to my portfolio</a></h2>
+        </div><!-- letters animation ends -->
+	<!--lettering script -->
+  <script type="text/javascript">
+//<![CDATA[
+      $(function() {
+       $("#letter-container h2 a").lettering();
+         });
+    //]]>
+  </script>
+
+		<!-- column 1 starts -->
+		 <div class="col2">
+        <p><span class="dropcap">A</span><strong>uspendisse nec dui quam. Donec in nibh
+        urna. Donec blandit consequat augue vitae sollicitudin. Nunc ultrices, urna sed
+        cursus adipisc, dolor elit blandit metus, at lacinia velit ante et nibh. Etiam
+        eget erat vulputate.</strong></p>
+
+        <p><span class="pullleft">This is a right pullquote, serving to entice
+        readers into an article or to highlight a topic.</span>
+		Curabitur diam sem, vulputate eu viverra et Vestibulum ante ipsum primis in
+        fauci. Morbi libero risus, adipiscing eu convallis quis, mattis in
+        libero. Cras lobortis, sem si amet aliquet hendrerit, nulla leo tempus urna, 
+		eu aliquam purus massa eget elit.
+        Sed cursus tristique neque, ac commodo sapien imperdiet nec. Fusce tincidunt,
+        sapien in dignissim porta, leo velit eges tas lorem, ac mattis lorem sapien a
+        magna. Namut purus nisi. Maecenas viverra est et nisl aliquam ipsum primis in
+        faucibus orci luctus et ultrices posuere cubilia Cu; Vestibulum in metus. Morbi
+        libero risus, adipiscing eu convallis quis, mattis in libero. Cras lobortis, sem
+        sit amet aliquet hendrerit, nulla eu aliquam aliquam purus.
+        </p>
+      </div><!-- column 2 starts -->
+
+      <div class="col2 last">
+        <p><span class="dropcap2">B</span>estibulum ante ipsum primis in faucibus orci
+        luctus et ultrices posuere cubilia Curae; Vestibulum in diam metus. Morbi libero
+        risus, adipiscing eu convallis quis, mattis in libero. Cras lobortis, sem sit
+        amet aliquet hendrerit, nulla leo tempus urna, eu aliquam purus massa eget elit.
+        Sed cursus tristique neque, ac commodo sapien imperdiet nec. Fusce tincidunt leo
+        velit egest.</p>
+
+        <p><span class="pullright">
+		This is a right pullquoted, serving to entice readers into an article or to highlight a topic.</span>
+		Aliquam purus massa eget elit. Sed cursus tristique neque, ac commodo sapien imperdiet nec. 
+		Fusce tincidunt, sapien in dignissim porta, leo velit egestas lorem, ac mattis lorem sapien a magna.
+		Nam ut purus nisi. Maecenas viverra cras. Maecenas viverra est et nisl aliquam Et Vestibulum ante ipsum
+        primis in faucibus orci luctus et ultrices posuere cubilia Cu; Vestibulum in
+        metus. Morbi libero risus, adipiscing eu convallis quis, mattis in libero.
+        Maecenas viverra est et nisl aliquam et nisl aliquam ipsum primis in
+        faucibus orc.</p>
+      </div>
+
+		<!-- buttons -->
+		<div class="clear"></div>
+			<div class="divider_index"></div>
+			<div class="button_left">
+			<a href="portfolio.html" class="green button_big2">MY PORTFOLIO</a>
+			<a href="contact.html" class="green button_big2">GET A QUOTE</a></div>
+		<div class="clear"></div><br/>
+			
+		<!-- mini 4 column starts -->
+		<div class="col4">
+			<div class="index_left">
+				<!-- nivo slideshow starts -->
+				<div class="slider-wrapper vsmall">
+					<div id="slider1" class="nivoSlider">
+						<!-- your pics 197px x 90px -->
+						<img src="style/images/work/mini1.jpg" alt=""/>
+						<img src="style/images/work/mini2.jpg" alt=""/>
+						<img src="style/images/work/mini3.jpg" alt=""/>
+						<img src="style/images/work/mini4.jpg" alt=""/>
+					</div>
+				</div>
+			</div>
+			<!-- nivo slideshow ends -->
+	<script type="text/javascript">
+//<![CDATA[
+    $(window).load(function() {
+        $('#slider1').nivoSlider({ effect: 'fade'
+    });
+  });
+	//]]>
+    </script>
+
+		<h6>mini slidehow</h6>
+			<p>Et Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia cu, vestibulum in metus.</p>
+			<div class="continue_left">
+				 Read <a href="#">More</a>
+			</div>
+		</div><!-- end -->
+		
+		<div class="col4"><!-- start --><div class="index_left">
+			<a href="style/images/work/large.jpg" media="gallery" class=
+              "pirobox"><img src="style/images/work/mini.jpg"  alt="" height="90" width="197"/></a></div>
+			<h6>enlarge an image</h6>
+			<p>Et Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia cu, vestibulum in metus.</p>
+			<div class="continue_left">
+				 Read <a href="#">More</a>
+			</div>
+		</div><!-- end -->
+		
+		<div class="col4"><!-- start -->
+			<iframe src=
+			"http://player.vimeo.com/video/1084537?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0179" marginheight="0" marginwidth="0" 
+			frameborder="0" height="90" width="197" class="index_left">
+			</iframe>
+			<h6>watch a video</h6>
+			<p>Et Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia cu, vestibulum in metus.</p>
+			<div class="continue_left">
+				 Read <a href="#">More</a>
+			</div>
+		</div><!-- end -->
+		
+		<div class="last"><!-- start -->
+			<iframe src=
+			"http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F45312312&amp;show_artwork=false" frameborder="0"
+			height="90" scrolling="no" width="197px" class="index_left" target="_blank">
+			</iframe>
+			<h6>listen to music</h6>
+			<p>Et Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia cu, vestibulum in metus.</p>
+			<div class="continue_left">
+				 Read <a href="#">More</a>
+			</div>
+		</div><!-- end --><br/><br/>
+		
+	</div><!-- content ends -->
+  </div><!-- wrapper ends -->
+<div class="clear"></div>
+
+<div class="footer">
+    <div class="footer_inner">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="work1.html">Projects</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="portfolio.html">Gallery</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li class="last"><a href="extras.html">Extras</a></li>
+      </ul>
+
+      <div class="copyright">
+        &copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/" title="模板之家">模板之家</a> Collect from <a href="http://www.cssmoban.com/" title="网站模板" target="_blank">网站模板</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
