@@ -1,0 +1,717 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="">
+  
+  <meta name="author" content="">
+
+  <title></title>
+
+<!-- Mobile Specific Meta
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+  
+  <!-- CSS
+  ================================================== -->
+  <!-- RS5.0 Main Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+  <!-- RS5.0 Layers and Navigation Styles -->
+  <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+  <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+  <!-- REVOLUTION STYLE SHEETS -->
+  <link rel="stylesheet" type="text/css" href="revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+  <link rel="stylesheet" type="text/css" href="revolution/fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+  <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+  <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css"> 
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="css/vendor/tf-fonts.min.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <!-- Lightbox.min css -->
+  <link rel="stylesheet" href="css/vendor/lightbox.min.css">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/vendor/animate.min.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/vendor/owl.carousel.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Media Queries -->
+  <link rel="stylesheet" href="css/vendor/media-queries.css">
+
+
+  <!-- Colors -->
+  <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green">
+  <link rel="stylesheet" type="text/css" href="css/colors/red.css" title="light-red">
+  <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue">
+  <link rel="stylesheet" type="text/css" href="css/colors/light-blue.css" title="light-blue">
+  <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow">
+  <link rel="stylesheet" type="text/css" href="css/colors/light-green.css" title="light-green">
+  
+  <script src="js/vendor/modernizr.js"></script>
+
+</head>
+
+<body id="body">
+
+ <!--
+  Start Preloader
+  ==================================== -->
+  <div id="preloader">
+    <div class='preloader'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div> 
+  <!--
+  End Preloader
+  ==================================== -->
+
+  <div class="colors-switcher">
+    <a id="show-panel" class="hide-panel"><i class="fa fa-tint"></i></a>        
+    <ul class="colors-list">
+        <li><a title="Light Red" onClick="setActiveStyleSheet('light-red'); return false;" class="light-red"></a></li>
+        <li><a title="Blue" class="blue" onClick="setActiveStyleSheet('blue'); return false;"></a></li>
+        <li class="no-margin"><a title="Light Blue" onClick="setActiveStyleSheet('light-blue'); return false;" class="light-blue"></a></li>
+        <li><a title="Green" class="green" onClick="setActiveStyleSheet('green'); return false;"></a></li>
+        
+        <li class="no-margin"><a title="light-green" class="light-green" onClick="setActiveStyleSheet('light-green'); return false;"></a></li>
+        <li><a title="Yellow" class="yellow" onClick="setActiveStyleSheet('yellow'); return false;"></a></li>
+        
+    </ul>
+
+</div> 
+
+  
+
+<!-- 
+  Fixed Navigation
+  ==================================== -->
+  <header class="navigation navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- responsive nav button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- /responsive nav button -->
+
+        <!-- logo -->
+        <a class="navbar-brand logo" href="index.html">
+          <img src="images/logo.png" alt="Meghna" />
+        </a>
+        <!-- /logo -->
+      </div>
+
+      <!-- main nav -->
+      <nav class="collapse navbar-collapse navbar-right">
+        <ul id="nav" class="nav navbar-nav menu">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- /main nav -->
+
+    </div>
+  </header>
+  <!--
+  End Fixed Navigation
+  ==================================== -->
+
+<section class="single-page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Our Services</h2>
+				<ol class="breadcrumb header-bradcrumb">
+				  <li><a href="index.html">Home</a></li>
+				  <li class="active">Service</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Start Services Section
+		==================================== -->
+		
+		<section class="services"  id="services">
+			<div class="container">
+				<div class="row">
+					
+					<!-- section title -->
+					<div class="title text-center" >
+						<h2>Our <span class="color">Services</span></h2>
+						<div class="border"></div>
+						<p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu. Sed condimentum iaculis ex, in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi sed tortor a risus luctus dignissim.</p>
+					</div>
+					<!-- /section title -->
+					
+                    <!-- Single Service Item -->
+					<div class="col-md-4 col-sm-6 col-xs-12  no-padding" >
+						<div class="service-block color-bg text-center">
+							<div class="service-icon text-center">
+								<i class="tf-ios-copy-outline"></i>
+							</div>
+							<h3>WordPress Theme</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+						</div>
+					</div>
+                    <!-- End Single Service Item -->
+                    
+                    <!-- Single Service Item -->
+					<div class="col-md-4 col-sm-6 col-xs-12  no-padding" >
+						<div class="service-block text-center">
+							<div class="service-icon text-center">
+								<i class="tf-ios-alarm-outline"></i>
+							</div>
+							<h3>Responsive Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+						</div>
+					</div>
+                    <!-- End Single Service Item -->
+                    
+                    <!-- Single Service Item -->
+					<div class="col-md-4 col-sm-6 col-xs-12  no-padding"  >
+						<div class="service-block color-bg text-center">
+							<div class="service-icon text-center">
+								<i class="tf-ios-book-outline"></i>
+							</div>
+							<h3>Media &amp; Advertisement</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+						</div>
+					</div>
+					<!-- End Single Service Item -->
+					
+					<!-- Single Service Item -->
+					<div class="col-md-4 col-sm-6 col-xs-12  no-padding" >
+						<div class="service-block  text-center">
+							<div class="service-icon text-center">
+								<i class="tf-ios-briefcase-outline"></i>
+							</div>
+							<h3>Graphic Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+						</div>
+					</div>
+					<!-- End Single Service Item -->
+					
+					<!-- Single Service Item -->
+					<div class="col-md-4 col-sm-6 col-xs-12  no-padding"  >
+						<div class="service-block color-bg text-center">
+							<div class="service-icon text-center">
+								<i class="tf-ios-crop"></i>
+							</div>
+							<h3>Apps Development</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+						</div>
+					</div>
+					<!-- End Single Service Item -->
+					
+					<!-- Single Service Item -->
+					<div class="col-md-4 col-sm-6 col-xs-12  no-padding">
+						<div class="service-block text-center">
+							<div class="service-icon text-center">
+								<i class="tf-ios-home-outline"></i>
+							</div>
+							<h3>Networking</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+						</div>
+					</div>
+					<!-- End Single Service Item -->
+						
+				</div> 		<!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+<!--
+Start Call To Action
+==================================== -->
+<section class="call-to-action parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Let's Create Something Together</h2>
+				<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit.</p>
+				<a href="" class="btn btn-main">Contact Us</a>
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+<!-- Start Team Skills
+		=========================================== -->
+		
+		<section class="team-skills parallax-section" id="skills">
+			<div class="container">
+				<div class="row">
+				
+					<!-- section title -->
+					<div class="title text-center">
+						<h2>Our <span class="color">Skills</span></h2>
+						<div class="border"></div>
+						<p>A Dedicated Team Lorem ipsum dolor sit amet, consectetur.</p>
+					</div>
+					<!-- /section title -->
+					
+					<div class="col-md-5">
+						<div class="team-skills-content">
+							<h3>Simple To Start</h3>
+							<p>Vestibulum nisl tortor, consectetur quis imperdiet bium, letcu. Sedndime ntumiaculis ex, in faucibus lorem accumsan non. Donec mattis tin unt metuorbi sed tort Igor aman luctus dignissim. Vestibulum nisl tortor, consectetur quis imperdiet bium, letcu. Sedndime ntumiaculis ex, in faucibus lorem accumsan non.</p>
+							<a href="" class="btn btn-main">Contact Us</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-1">
+						<div class="progress-block">
+							<ul>
+								<li>
+									<span>Photoshop</span>
+									<div class="progress">
+										<div class="progress-bar" style="width: 90%;">
+									    </div>
+									</div>
+								</li>
+								<li>
+									<span>Web Application</span>
+									<div class="progress">
+										<div class="progress-bar" style="width: 85%;">
+									    </div>
+									</div>
+								</li>
+								<li>
+									<span>Andriod Application</span>
+									<div class="progress">
+										<div class="progress-bar" style="width: 92%;">
+									    </div>
+									</div>
+								</li>
+								<li>
+									<span>IOS Development</span>
+									<div class="progress">
+										<div class="progress-bar" style="width: 78%;">
+									    </div>
+									</div>
+								</li>
+							</ul>
+							
+						</div>
+					</div>
+				</div>  		<!-- End row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div id="clients-slider" class="clients-logo-slider">
+							<img src="images/client-logo/logo1.png" alt="">
+							<img src="images/client-logo/logo-2.png" alt="">
+							<img src="images/client-logo/logo-3.png" alt="">
+							<img src="images/client-logo/logo-4.png" alt="">
+							<img src="images/client-logo/logo-5.png" alt="">
+							<img src="images/client-logo/logo1.png" alt="">
+							<img src="images/client-logo/logo-2.png" alt="">
+							<img src="images/client-logo/logo-3.png" alt="">
+							<img src="images/client-logo/logo-4.png" alt="">
+							<img src="images/client-logo/logo-5.png" alt="">
+						</div>
+						
+					</div>
+				</div>
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+<!-- Start Pricing section
+		=========================================== -->
+	<section class="pricing-table parallax-section" id="pricing">
+		<div class="container">
+			<div class="row">
+				
+				<!-- section title -->
+			    <div class="title title-white text-center " >
+		        	<h2>Our Greatest<span class="color"> Plans</span></h2>
+			        <div class="border"></div>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, officia.</p>
+			    </div>
+			    <!-- /section title -->
+				
+				<!-- single pricing table -->
+				<div class="col-md-4 col-sm-6 col-xs-12" >
+					<div class="pricing-item">
+						
+						<!-- plan name & value -->
+						<div class="price-title">
+							<h3>Basic</h3>
+							<strong class="value">$99</strong>
+							<p>Perfect for single freelancers who work by themselves</p>
+						</div>
+						<!-- /plan name & value -->
+						
+						<!-- plan description -->
+						<ul>
+							<li><i class="tf-ios-arrow-forward"></i> 1GB Disk Space</li>
+							<li><i class="tf-ios-arrow-forward"></i> 10 Email Account</li>
+							<li><i class="tf-ios-arrow-forward"></i> Script Installer</li>
+							<li><i class="tf-ios-arrow-forward"></i> 1 GB Storage</li>
+							<li><i class="tf-ios-arrow-forward"></i> 10 GB Bandwidth</li>
+							<li><i class="tf-ios-arrow-forward"></i> 24/7 Tech Support</li>
+						</ul>
+						<!-- /plan description -->
+						
+						<!-- signup button -->
+						<a class="btn btn-main" href="#">Signup</a>
+						<!-- /signup button -->
+						
+					</div>
+				</div>
+				<!-- end single pricing table -->
+				
+				<!-- single pricing table -->
+				<div class="col-md-4 col-sm-6 col-xs-12  "  >
+					<div class="pricing-item">
+					
+						<!-- plan name & value -->
+						<div class="price-title">
+							<h3>Basic</h3>
+							<strong class="value">$99</strong>
+							<p>Suitable for small businesses with up to 5 employees</p>
+						</div>
+						<!-- /plan name & value -->
+						
+						<!-- plan description -->
+						<ul>
+							<li><i class="tf-ios-arrow-forward"></i> 1GB Disk Space</li>
+							<li><i class="tf-ios-arrow-forward"></i> 10 Email Account</li>
+							<li><i class="tf-ios-arrow-forward"></i> Script Installer</li>
+							<li><i class="tf-ios-arrow-forward"></i> 1 GB Storage</li>
+							<li><i class="tf-ios-arrow-forward"></i> 10 GB Bandwidth</li>
+							<li><i class="tf-ios-arrow-forward"></i> 24/7 Tech Support</li>
+						</ul>
+						<!-- /plan description -->
+						
+						<!-- signup button -->
+						<a class="btn btn-main" href="#">Signup</a>
+						<!-- /signup button -->
+						
+					</div>
+				</div>
+				<!-- end single pricing table -->
+				
+				<!-- single pricing table -->
+				<div class="col-md-4 col-sm-6 col-xs-12 ">
+					<div class="pricing-item">
+						
+						<!-- plan name & value -->
+						<div class="price-title">
+							<h3>Basic</h3>
+							<strong class="value">$99</strong>
+							<p>Great for large businesses with more than 5 employees</p>
+						</div>
+						<!-- /plan name & value -->
+						
+						<!-- plan description -->
+						<ul>
+							<li><i class="tf-ios-arrow-forward"></i> 1GB Disk Space</li>
+							<li><i class="tf-ios-arrow-forward"></i> 10 Email Account</li>
+							<li><i class="tf-ios-arrow-forward"></i> Script Installer</li>
+							<li><i class="tf-ios-arrow-forward"></i> 1 GB Storage</li>
+							<li><i class="tf-ios-arrow-forward"></i> 10 GB Bandwidth</li>
+							<li><i class="tf-ios-arrow-forward"></i> 24/7 Tech Support</li>
+						</ul>
+						<!-- /plan description -->
+						
+						<!-- signup button -->
+						<a class="btn btn-main" href="#">Signup</a>
+						<!-- /signup button -->
+						
+					</div>
+				</div>
+				<!-- end single pricing table -->
+				
+				
+			</div>       <!-- End row -->
+		</div>   	<!-- End container -->
+	</section>   <!-- End section -->
+		
+
+<!--
+		Start Counter Section
+		==================================== -->
+		
+		<section  class="counter parallax-section" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="counter-title">
+							<h2>Award-Winning Agency</h2>
+							<p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu. Sed condimentum iaculis ex, in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi sed tortor a risus luctus dignissim.</p>
+						</div>
+					</div>
+					<!-- first count item -->
+					<div class="col-md-3 col-sm-6 col-xs-6 text-center " >
+						<div class="counters-item">
+							<i class="tf-ios-alarm-outline"></i>
+							<div>
+							    <span data-speed="3000" data-to="320">320</span>
+							</div>
+							<h3>Happy Clients</h3>
+						</div>
+					</div>
+					<!-- end first count item -->
+				
+					<!-- second count item -->
+					<div class="col-md-3 col-sm-6 col-xs-6 text-center " >
+						<div class="counters-item">
+							<i class=" tf-ios-analytics-outline"></i>
+							<div>
+							    <span data-speed="3000" data-to="565">565</span>
+							</div>
+							<h3>Projects completed</h3>
+						</div>
+					</div>
+					<!-- end second count item -->
+				
+					<!-- third count item -->
+					<div class="col-md-3 col-sm-6 col-xs-6 text-center "  >
+						<div class="counters-item">
+							<i class="tf-ios-compose-outline"></i>
+							<div>
+							    <span data-speed="3000" data-to="95">95</span>
+							</div>
+				            <h3>Positive feedback</h3>
+							
+						</div>
+					</div>
+					<!-- end third count item -->
+					
+					<!-- fourth count item -->
+					<div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+						<div class="counters-item kill-border">
+							<i class="tf-ios-bolt-outline"></i>
+							<div>
+							    <span data-speed="3000" data-to="2500">2500</span>
+							</div>
+							<h3>Cups of Coffee</h3>
+						</div>
+					</div>
+					<!-- end fourth count item -->
+				</div> 		<!-- end row -->
+			</div>   	<!-- end container -->
+		</section>   <!-- end section -->
+
+<!--
+Start About Section
+==================================== -->
+<section class="about-2 section" >
+	<div class="container">
+		<div class="row">
+		
+			<!-- section title -->
+			<div class="title text-center"  >
+				<h2>WE ARE<span class="color"> Bingo AGENCY</span></h2>
+				<div class="border"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+			<!-- /section title -->
+
+			<div class="col-md-6">
+				<img src="images/about/about-2.png" class="img-responsive" alt="">
+			</div>
+			<div class="col-md-6">
+				<ul class="checklist">
+                    <li>Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
+                    <li>Aenean quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
+                    <li>Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
+                    <li>Etiam porta sem multipage evint landing magna mollis euismod a pharetra augue.</li>
+                    <li>Aenean quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
+                </ul>
+				<a href="#" class="btn btn-main mt-20">Learn More</a>
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+<!-- Start Testimonial
+		=========================================== -->
+		
+	<section class="testimonial parallax-section" id="testimonial">
+		<div class="container">
+			<div class="row">				
+				<div class="col-lg-12">
+					<!-- testimonial wrapper -->
+					<div id="testimonials" >
+					
+						<!-- testimonial single -->
+						<div class="item text-center">
+							<i class="tf-chatbubbles"></i>
+							<!-- client info -->
+							<div class="client-details">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores, unde corporis labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
+							</div>
+							<!-- /client info -->
+							<!-- client photo -->
+							<div class="client-thumb">
+								<img src="images/client-logo/clients-1.png" class="img-responsive" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>Abul Mal Muhit</h3>
+								<span>CEO , Company Name</span>
+							</div>
+							<!-- /client photo -->
+						</div>
+						<!-- /testimonial single -->
+
+						<!-- testimonial single -->
+						<div class="item text-center">
+							<i class="tf-chatbubbles"></i>
+							<!-- client info -->
+							<div class="client-details">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores, unde corporis labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
+							</div>
+							<!-- /client info -->
+							<!-- client photo -->
+							<div class="client-thumb">
+								<img src="images/client-logo/clients-1.png" class="img-responsive" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>Abul Mal Muhit</h3>
+								<span>CEO , Company Name</span>
+							</div>
+							<!-- /client photo -->
+						</div>
+						<!-- /testimonial single -->
+						<!-- testimonial single -->
+						<div class="item text-center">
+							<i class="tf-chatbubbles"></i>
+							<!-- client info -->
+							<div class="client-details">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores, unde corporis labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
+							</div>
+							<!-- /client info -->
+							<!-- client photo -->
+							<div class="client-thumb">
+								<img src="images/client-logo/clients-1.png" class="img-responsive" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>Abul Mal Muhit</h3>
+								<span>CEO , Company Name</span>
+							</div>
+							<!-- /client photo -->
+						</div>
+						<!-- /testimonial single -->
+						
+					</div>		<!-- end testimonial wrapper -->
+				</div> 		<!-- end col lg 12 -->
+			</div>	    <!-- End row -->
+		</div>       <!-- End container -->
+	</section>    <!-- End Section -->
+
+<!--
+Start Call To Action
+==================================== -->
+<section class="call-to-action parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Let's Create Something Together</h2>
+				<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit.</p>
+				<a href="" class="btn btn-main">Contact Us</a>
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+<footer id="footer" class="bg-one">
+  <div class="top-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <h3>about</h3>
+          <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <ul>
+            <li><h3>Our Services</h3></li>
+            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+          </ul>
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <ul>
+            <li><h3>Quick Links</h3></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ’s</a></li>
+            <li><a href="#">Badges</a></li>
+          </ul>
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <ul>
+            <li><h3>Connect with us Socially</h3></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Pinterest</a></li>
+          </ul>
+        </div>
+        <!-- End of .col-sm-3 -->
+
+      </div>
+    </div> <!-- end container -->
+  </div>
+  <div class="footer-bottom">
+    <h5>Copyright &copy; 2017.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></h5>
+  </div>
+</footer> <!-- end footer -->
+
+
+    <!-- end Footer Area
+    ========================================== -->
+    
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    
+    <!-- Main jQuery -->
+    <script src="js/vendor/jquery-3.1.1.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- Parallax -->
+    <script src="js/vendor/jquery.parallax-1.1.3.js"></script>
+    <!-- lightbox -->
+    <script src="js/vendor/lightbox.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <!-- Portfolio Filtering -->
+    <script src="js/vendor/jquery.mixitup.js"></script>
+    <!-- Smooth Scroll js -->
+    <script src="js/vendor/smooth-scroll.min.js"></script>
+    
+    <script src="js/vendor/jquery.vide.min.js"></script>
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+
+  </body>
+  </html>
