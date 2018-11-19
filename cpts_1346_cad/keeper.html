@@ -89,11 +89,11 @@ function tick() {
   ctx.globalAlpha = .07;
   ctx.globalCompositeOperation = "lighter";
   if(drawRays(current)){
-    current++;
+    current = current+10;
     current = Math.min(current, txtW)
     window.requestAnimationFrame(tick)  
   }else{
-    fadeOut()
+    //fadeOut()
   }
   ctx.restore()
 }
