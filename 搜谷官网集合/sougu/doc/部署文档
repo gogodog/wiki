@@ -1,0 +1,8 @@
+1. 使用IDE导入本项目，IDE需要安装lombok插件
+2. 创建数据库, 导入mysql.sql
+3. 配置application-dev.yml中的数据库连接
+4. 运行项目
+   1、直接运行Diss8Application.java
+   2、项目根目录下执行mvn -X clean package -Dmaven.test.skip=true编译打包，然后执行java -jar diss8.jar
+5. 页面测试地址 http://localhost:8080/diss/main
+6. 接口测试地址 http://localhost:8080/sys/users?username=admin

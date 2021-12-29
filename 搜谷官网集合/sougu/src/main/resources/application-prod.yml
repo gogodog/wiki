@@ -1,0 +1,13 @@
+# 生产环境配置
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    dynamic:
+      primary: master #设置默认的数据源或者数据源组,默认值即为master
+      datasource:
+        master:
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost:3306/diss8?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2b8
