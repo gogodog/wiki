@@ -121,10 +121,77 @@
                                             </div>
                                             <!-- Single Form End -->
                                         </div>
-                                        <div class="col-md-12">
+                                        <div class="col-md-6">
                                             <!-- Single Form Start -->
                                             <div class="single-form">
                                                 <input class="form-control" type="text" placeholder="身份证号">
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                        <div class="col-md-6">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <input class="form-control" type="text" placeholder="推荐码（选填）">
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                        <div class="col-md-6">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <select class="form-control sel">
+                                                    <option disabled selected style='display:none;'>- 性别</option>
+                                                    <option value="1">男</option>
+                                                    <option value="2">女</option>
+                                                </select>
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                        <div class="col-md-6">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <select class="form-control sel">
+                                                    <option disabled selected style='display:none;'>- 驾龄</option>
+                                                    <option value="三年以下">小于3年驾龄</option>
+                                                    <option value="三至五年">3年至5年驾龄</option>
+                                                    <option value="五年以上">5年以上驾龄</option>
+                                                </select>
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                        <div class="col-md-6">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <select class="form-control sel">
+                                                    <option disabled selected style='display:none;'>- 运营城市</option>
+                                                    <option value="beijing">北京</option>
+                                                    <option value="shanghai" disabled>上海</option>
+                                                    <option value="hangzhou" disabled>杭州</option>
+                                                    <option value="suzhou" disabled>苏州</option>
+                                                    <option value="shenzhen" disabled>深圳</option>
+                                                    <option value="sanya" disabled>三亚</option>
+                                                    <option value="chengdu" disabled>成都</option>
+                                                    <option value="chongqing" disabled>重庆</option>
+                                                    <option value="haerbing" disabled>哈尔滨</option>
+                                                    <option value="xian01" disabled>西安</option>
+                                                </select>
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                        <div class="col-md-6">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <select class="form-control sel">
+                                                    <option disabled selected style='display:none;'>- 车队(公司)</option>
+                                                    <option value="personal">个人</option>
+                                                    <option value="souguteam003284">搜谷出行一队</option>
+                                                    <option value="souguteams0942df7">搜谷出行二队</option>
+                                                    <option value="tianrenteamf4ca2">北京天仁租赁公司</option>
+                                                    <option value="江华灵teamf4ce5f">江华灵汽车租赁公司</option>
+                                                    <option value="souguteam219bte">勇闯大队</option>
+                                                    <option value="souguteamf4c252">北京天涯出租车</option>
+                                                    <option value="haoxingteamsfda2dce">好行一队</option>
+                                                    <option value="haoxingeams09dadfac">搜谷好行分队</option>
+                                                </select>
                                             </div>
                                             <!-- Single Form End -->
                                         </div>
@@ -280,7 +347,6 @@
     <script src="assets/js/main-driver-sign.js"></script>
     <script type="text/javascript">
         function save() {
-            console.log(11);
             Swal.fire({
               icon: 'success',
               title: '提交成功，客服会及时与您联系',

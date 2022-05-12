@@ -11454,3 +11454,11 @@ select {
 .progress-wrap-3 svg.progress-circle path {
   stroke: #ff5538;
 }
+
+.sel {
+    padding: 10px 25px;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #4c4d56;
+}
